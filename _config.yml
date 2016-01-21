@@ -1,0 +1,15 @@
+# Site settings
+title: Axelerant Developer Handbook
+email:
+description:
+baseurl: ""
+url: "https://axelerant.github.io"
+twitter_username: axelerant
+github_username:  axelerant
+
+# Build settings
+markdown: kramdown
+
+# Contrib gems
+gems:
+  - jekyll-sitemap
