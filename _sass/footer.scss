@@ -1,0 +1,45 @@
+.footer {
+  background: #333;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #cacaca;
+  font-size: .875rem;
+
+  p {
+    margin: 0;
+  }
+
+  .meta {
+    float: left;
+  }
+
+  .links {
+    float: right;
+    font-size: 1.125rem;
+  }
+
+  a {
+    color: #cacaca;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .footer {
+    text-align: center;
+
+    .links,
+    .meta {
+      float: none;
+    }
+    .meta {
+      margin-bottom:  1rem;
+    }
+  }
+}
