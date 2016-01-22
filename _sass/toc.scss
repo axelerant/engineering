@@ -20,6 +20,10 @@
 
     a {
       color: #CACACA;
+
+      &:hover {
+        color: #fff;
+      }
     }
   }
 
@@ -46,4 +50,11 @@
   font-size: 2rem;
   height: 90px;
   line-height: 90px;
+}
+
+@media screen and (max-width: 480px) {
+  .btn--toc {
+    height: 70px;
+    line-height: 70px;
+  }
 }

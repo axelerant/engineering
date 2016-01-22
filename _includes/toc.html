@@ -9,7 +9,9 @@
           {% for page in pages %}
             {% if page.parent == parent %}
               <li class="toc__item--two">
-                <h5><a href={{ site.baseurl }}{{ page.url }}>{{ page.title }}</a></h5>
+                <h5>
+                  <a href={{ site.baseurl }}{{ page.url }}>{{ page.title }}</a>
+                </h5>
                 <ul class="toc__list--three">
                   {% for sub in page.subnav %}
                     <li class="toc__item--three">

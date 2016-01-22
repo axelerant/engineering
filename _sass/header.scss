@@ -16,3 +16,14 @@
     max-height: 90px;
   }
 }
+
+
+@media screen and (max-width: 480px) {
+  .site-header {
+    padding: 1rem .5rem;
+  }
+
+  .logo img {
+    max-height: 70px;
+  }
+}
