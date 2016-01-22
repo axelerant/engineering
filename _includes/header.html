@@ -1,14 +1,9 @@
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <nav class="site-nav">
-      {% assign pages = site.pages | sort: "weight" %}
-
-      {% for page in pages %}
-        {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </nav>
+    <a class="logo" href="{{ site.baseurl }}/">
+      <img src="/images/logo.png" alt="Axelerant Logo" />
+    </a>
+    <a href="#" class="btn--toc"><span class="icon-menu"></span></a>
+    {% include toc.html %}
   </div>
 </header>

@@ -13,3 +13,8 @@ markdown: kramdown
 # Contrib gems
 gems:
   - jekyll-sitemap
+
+toc:
+  - Front-end
+  - Back-end
+  - Devops

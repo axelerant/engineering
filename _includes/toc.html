@@ -1,17 +1,29 @@
-<nav class="site-toc">
+<nav class="toc">
   {% assign pages = site.pages | sort: "weight" %}
-  {% for page in pages %}
-    {% if page.title %}
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% if page.subnav %}
-        <ul>
-          {% for subnav in page.subnav %}
-            <li>
-              <a href={{ site.baseurl }}{{ page.url }}{{ subnav | downcase | prepend : "#"}}>{{ subnav }}</a>
-            </li>
+
+  <ul class="toc__list--one">
+    {% for parent in site.toc %}
+      <li class="toc__item--one">
+        <h4>{{ parent }}</h4>
+        <ul class="toc__list--two">
+          {% for page in pages %}
+            {% if page.parent == parent %}
+              <li class="toc__item--two">
+                <h5><a href={{ site.baseurl }}{{ page.url }}>{{ page.title }}</a></h5>
+                <ul class="toc__list--three">
+                  {% for sub in page.subnav %}
+                    <li class="toc__item--three">
+                      <a href={{ site.baseurl }}{{ page.url }}{{ sub | split: " " | join: "-" | downcase | prepend: '#' }}>
+                        {{ sub }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endif %}
           {% endfor %}
         </ul>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+      </li>
+    {% endfor %}
+  </ul>
 </nav>

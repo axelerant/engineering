@@ -1,0 +1,49 @@
+.toc {
+  // TODO .cf
+  clear: both;
+  overflow: hidden;
+
+  display: none;
+
+  h5 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+  ul {
+    margin-bottom: 1.5rem;
+  }
+
+  .toc__item--three {
+    font-size: 0.875rem;
+
+    a {
+      color: #CACACA;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    ul {
+      padding-left: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .toc__item--one {
+      float: left;
+      width: 33.33%;
+    }
+  }
+}
+
+.is-active {
+  display: block;
+}
+
+.btn--toc {
+  float: right;
+  font-size: 2rem;
+  height: 90px;
+  line-height: 90px;
+}
