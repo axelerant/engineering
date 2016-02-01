@@ -113,3 +113,43 @@ class Connection {}
 
 ### Autoloading Standards (PSR-4, <s>PSR-0</s>)
 
+An [autoloader](http://php.net/manual/en/language.oop5.autoload.php) is responsible for loading classes (only) when they are required which helps in two ways:
+
+* The class is not loaded unless required, hence saving memory.
+* As a developer, you do not have to remember to load the files containing the class definition.
+
+> Note: Even though the document uses the word 'class', this actually applies to interfaces, traits, and of course, classes.
+{: .notice }
+
+PHP SPL provides [spl_autoload_register](http://php.net/spl_autoload_register) which allows you to register an autoload function. When PHP cannot find a class, it calls all the registered autoload functions so that they can load the file containing the required class.
+
+> Warning: If you are using [__autoload](http://php.net/manual/en/function.autoload.php), see the [documentation for spl_autoload_register](http://php.net/spl_autoload_register) for caveats on using them together.
+{: .warning }
+
+While it is possible to use your own autoload logic, many PHP components have moved on to using [PSR-4](http://www.php-fig.org/psr/psr-4/) for autoloading. See the [examples document](http://www.php-fig.org/psr/psr-4/examples/) on the PHP-FIG website to understand how a class and autoloader work here. However, you should really be using [composer](https://getcomposer.org/) for the autoloader unless you have a good reason not to.
+
+### Interfaces
+
+At the time of the writing, there are three interfaces that are recommended by PHP-FIG.
+
+* [PSR-3: Logging Interface](http://www.php-fig.org/psr/psr-3/) - Define interfaces to logger engines.
+* [PSR-6: Caching Interface](http://www.php-fig.org/psr/psr-6/) - Define interfaces to caching engines.
+* [PSR-7: HTTP Message Interface](http://www.php-fig.org/psr/psr-7/) - Define interfaces to describe HTTP Request and Response messages.
+
+These interfaces should be used for the task at hand as it becomes trivial to switch out concrete implementations when required. For example, it would be very easy to use a different logger on the fly depending on the scenario just by injecting a concrete logger which implements a PSR-3 logger interface (many do). Similarly, we can replace Guzzle by another PSR-7 library without touching any of the code that handles the request and response objects.
+
+### Coding Style
+
+PHP-FIG suggests [PSR-2](http://www.php-fig.org/psr/psr-2/) as the preferred coding style which extends [PSR-1](http://www.php-fig.org/psr/psr-1/), which is the basic coding standard. It is encouraged to use PSR-2 to ensure easy interoperability with many components that use PSR-2. There is [another recommendation currently in review](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) which will extend the coding style for PHP 7.0 changes.
+
+## Composer
+
+![Composer](https://getcomposer.org/img/logo-composer-transparent.png)
+{: .align-right}
+[Composer](https://getcomposer.org/) is a dependency manager for PHP components which also provides an autoloader to conveniently load classes from the packages. The autoloader supports PSR-0, PSR-4, and other methods such as a static class-map.
+
+You should always use composer to write applications (most frameworks support this) by starting with a [composer.json](https://getcomposer.org/doc/04-schema.md) file in your application. If you are writing a reusable component/library, start with a [composer.json](https://getcomposer.org/doc/04-schema.md) to define it. Also, commit the [composer.lock](https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file) file for an application, but not for a library.
+
+## PHPUnit
+
+PHPUnit is a unit testing framework for PHP and also can be used to run integration tests. It is recommended to start with a phpunit.xml.dist in your application and also include phpunit in your composer.json (in require-dev).
