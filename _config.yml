@@ -5,7 +5,8 @@ description:
 baseurl: ""
 url: "https://axelerant.github.io"
 twitter_username: axelerant
-github_username:  axelerant
+github_username: axelerant
+host: 0.0.0.0
 
 # Build settings
 markdown: kramdown
