@@ -5,8 +5,9 @@ permalink: /css/
 weight: 2
 parent: Front-end
 subnav:
-  - Best Practices
   - Architecture
-  - Naming Conventions
-  - Performance
+  - Naming conventions
+  - Best practices
+  - Formatting
 ---
+
