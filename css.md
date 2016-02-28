@@ -73,4 +73,4 @@ We follow [SMACSS](https://smacss.com) in conjunction with [BEM](https://en.bem.
 ## Formatting
 
 - Use [editorconfig](http://editorconfig.org/) per project to control indentation per file format.
-- Stylistic perferance should be checked by [Stylelint](https://github.com/stylelint/stylelint).
+- Stylistic preferences should be checked by [Stylelint](https://github.com/stylelint/stylelint).
