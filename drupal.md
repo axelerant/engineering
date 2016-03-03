@@ -5,12 +5,61 @@ permalink: /drupal/
 weight: 5
 parent: Back-end
 subnav:
-  - Hooks
   - File Structure and Conventions
-  - Writing modules
+  - Site Building
+  - Writing Modules
+  - Hooks
   - Symfony components
   - Automated Tests Simpletest, PHPUnit
 ---
+
+## File Structure and Conventions
+
+Repositories on Projspace, Minnal, and other providers such as Acquia require that Drupal files should be stored in a directory called `docroot/` at the root of the repository. Other providers like Pantheon require Drupal files to be at the root of the repository itself. In cases where a `docroot` directory is used, other files such as scripts may be stored in the root of the repository itself (these would not be exposed by the web server). In Pantheon like environments, other measures such as `.htaccess` may be required. Pantheon provides an option of a [directory called `private`](https://pantheon.io/docs/articles/sites/private-files/#storing-private-keys-and-certs) which will not be delivered via web. This directory may be used for additional files.
+
+Within Drupal, the modules and themes must be classified in their directories. The modules must be stored under `contrib`, `custom`, and `features` depending on if they are contributed modules, custom modules built for the project, or feature modules for the site build. The same should be done for the themes as well. If the modules are stored under an installation profile, the modules and themes must be classified in a similar manner under the profile as well.
+
+A typical Drupal 7 profile might look like this.
+
+~~~
+.
++- docroot/
+|  +- includes/
+|  +- misc/
+|  +- profiles/
+|  |  +- standard/
+|  |  +- minimal/
+|  |  +- example/
+|  |     +- modules/
+|  |     |  +- contrib/
+|  |     |  +- custom/
+|  |     |  +- features/
+|  |     +- themes/
+|  |     |  +- contrib/
+|  |     |  +- custom/
+|  |     |- example.info
+|  |     |- example.install
+|  |     |- example.profile
+|  +- scripts/
+|  +- sites/
+|  |  +- all/
+|  |  +- default/
+|  +- themes/
+|  |- .gitignore
+|  |- .htaccess
+|  |- and more...
++- patches/
++- scripts/
+|- .gitignore
+~~~
+
+## Site Building
+
+All configuration on a Drupal website should be built as logical features. These features should be split in logical feature modules all stored in `custom` directory or a `features` directory.
+
+## Writing Modules
+
+Any custom modules that are required should be stored in the `custom` directory within the `modules` directory. The modules must follow proper namespacing to avoid conflicts. A simple way to namespace this would be to prefix the project name, e.g. `example_custom_name`. The code in the module should follow proper [code conventions for Drupal code](https://www.drupal.org/coding-standards).
 
 ## Hooks
 
@@ -24,10 +73,11 @@ Hooks are sufficiently documented in the [Drupal documentation](https://www.drup
 
   ~~~php
   /**
-   * Implements hook_init().
+   * Implements hook_menu().
    */
-  function example_init() {
-    // Init code.
+  function example_menu() {
+    $menu = [/* Build menu */];
+    return $menu;
   }
   ~~~
 * Group related hooks together in the file
@@ -45,3 +95,4 @@ It is a good idea to structure your code as objects. See the [object oriented PH
 ### Performance Implications
 
 Always consider if the hook you are implementing entails a performance penalty and look for alternatives. For example, it is never a good idea to use hook_init() to add JS/CSS to a page. There are many alternatives to globally or conditionally load JS/CSS files instead of hook_init. In fact, there is always an alternative to using hook_init, which is why the hook was [removed in Drupal 8](https://www.drupal.org/node/2013014).
+
