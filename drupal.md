@@ -53,7 +53,7 @@ A typical Drupal 7 profile might look like this.
 
 ## Site Building
 
-All configuration on a Drupal website should be built as logical features. These features should be split in logical feature modules all stored in `custom` directory or a `features` directory.
+All configuration on a Drupal website should be built as logical features. These features should be split in logical feature modules all stored in `features` directory.
 
 ## Writing Modules
 
