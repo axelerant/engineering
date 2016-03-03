@@ -9,8 +9,6 @@ subnav:
   - Site Building
   - Writing Modules
   - Hooks
-  - Symfony components
-  - Automated Tests Simpletest, PHPUnit
 ---
 
 ## File Structure and Conventions
