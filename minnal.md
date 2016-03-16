@@ -5,4 +5,5 @@ permalink: /minnal/
 weight: 7
 parent: Devops
 subnav:
+published: false
 ---
