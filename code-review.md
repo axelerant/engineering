@@ -6,7 +6,6 @@ weight: 9
 parent: General
 subnav:
   - Peer Code Review
-  - Drupal Review Assist Tools
 ---
 
 ## Peer Code Review
