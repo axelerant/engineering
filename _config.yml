@@ -16,6 +16,7 @@ gems:
   - jekyll-sitemap
 
 toc:
+  - General
   - Front-end
   - Back-end
   - Devops

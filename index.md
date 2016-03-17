@@ -1,19 +1,16 @@
 ---
 layout: page
-title: Axelerant Developer Handbook
+title: Axelerant Engineering Handbook
 ---
 
 ## Introduction
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores id placeat amet eius necessitatibus facere eos saepe corporis, eligendi quisquam nulla magni, aliquid sit enim itaque mollitia ex sequi quia.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tempore ullam ducimus illo laborum quaerat dolorum deleniti alias nam doloribus velit neque nemo autem, tempora veniam harum! Ex, voluptates, mollitia!
+This guide aims to illustrate how to engineer the Axelerant Way. As a company, we strive to provide software that yield world standard user experience and performance. In order to improve efficiency, we need to standardize what we use and how we use it. Therefore, Axelerant engineers should follow these best practices in all their work. Our best practices are not meant to be restrictive or comprehensive; we value creativity. The aim is for this document to provide a strong guidance, not an authoritative direction.
 
+## Contributing
 
-## Philosophy
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+Please contribute via pull requests on GitHub.
 
 ## About
-Axelerant is a full-scale, agile-based powerhouse, fueled by a globally distributed team of open source innovators. By demonstrating software success with acclaimed projects and hundreds of open source community contributions, Axelerant has asserted itself as the global leader in Drupal development, support and maintenance, and dedicated staff augmentation.
+
+Axelerant is a digital technology and solutions partner — sharing the spark of social responsibility globally and fueled by a shared passion for open source. Our commitment to open source communities, development, and innovation enable us to be a world leader in development, staffing, and support.

@@ -1,11 +1,11 @@
-Axelerant Developer Handbook
-============================
+# Axelerant Engineering Handbook
 
-### Setup
-- Requirements:
-  - Ruby > 1.9.x
+This guide dictates how we, as a company, engineer software. The purpose behind them is to improve the quality of the experiences we build as well as to standardize in order to facilitate more effective collaboration.
 
-```bash
-bundle install
-jekyll server
-```
+## Contributions
+
+We welcome pull requests.
+
+## License
+
+Released under MIT by, and copyright 2016 by Axelerant.
