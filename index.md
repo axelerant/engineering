@@ -5,7 +5,11 @@ title: Axelerant Engineering Handbook
 
 ## Introduction
 
-This guide aims to illustrate how to engineer the Axelerant Way. As a company, we strive to provide software that yield world standard user experience and performance. In order to improve efficiency, we need to standardize what we use and how we use it. Therefore, Axelerant engineers should follow these best practices in all their work. Our best practices are not meant to be restrictive or comprehensive; we value creativity. The aim is for this document to provide a strong guidance, not an authoritative direction.
+This guide aims to illustrate how to engineer the Axelerant Way - to provide a strong guidance, not an authoritative direction.
+
+As a company, we strive to provide software that yield world standard user experience and performance. In order to improve efficiency, we need to standardize what we use and how we use it. Therefore, Axelerant engineers should follow these best practices in all their work.
+
+Our best practices are not meant to be restrictive or comprehensive; we value creativity.
 
 ## Contributing
 

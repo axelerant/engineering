@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Drupal Audit Guide
-permalink: /audit/
+permalink: /drupal-audit/
 weight: 9
 parent: Back-end
 subnav:
@@ -14,7 +14,7 @@ subnav:
   - Who can do an audit?
   - Selling audits
 ---
-This document outlines the process to follow for auditing any Drupal project..
+This document outlines the process to follow for auditing any Drupal project:
 
 ## What’s an audit?
 
@@ -70,7 +70,7 @@ Audit is a run-through of an implementation of a site. Audits are done for many 
 * Secure the source code and a dump of the database
 * If the data is too private, ask for it to be obfuscated
 * Don’t ever settle for partial source code, just the custom modules, for example
-* They’ll be happy to leave the hacked core and “enhanced” contrib modules outside of the audit
+* They’ll be happy to leave the hacked core and `enhanced` contrib modules outside of the audit
 
 ## Install the site
 
