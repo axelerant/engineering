@@ -30,16 +30,16 @@ subnav:
 
 ### SEO Tools
 
-* Google Analytics ([drupal.org/project/google_analytics](http://drupal.org/project/google_analytics))
-* Google Authorship Module([drupal.org/project/google_authorship](http://drupal.org/project/google_authorship))
+* Google Analytics ([drupal.org/project/google_analytics](https://drupal.org/project/google_analytics))
+* Google Authorship Module([drupal.org/project/google_authorship](https://drupal.org/project/google_authorship))
 * Configure URL Alias Patterns (Configuration > Search and metadata > URL Aliases > Settings > Patterns)
-* Fix navigation on 404 pages ([drupal.org/project/navigation404](http://drupal.org/project/navigation404))
-* Meta tags are configured ([drupal.org/project/metatag](http://drupal.org/project/metatag))
+* Fix navigation on 404 pages ([drupal.org/project/navigation404](https://drupal.org/project/navigation404))
+* Meta tags are configured ([drupal.org/project/metatag](https://drupal.org/project/metatag))
 * Set custom error pages (Configuration > System > Site Information)
     * Handle 403 and 404 error pages and format them as per the theme
-* Configure the Mollom module to prevent spam ([drupal.org/project/mollom](http://drupal.org/project/mollom))
-* Add social media tools ([drupal.org/project/sharethis](http://drupal.org/project/sharethis))
-* XML sitemap ([drupal.org/project/xmlsitemap](http://drupal.org/project/xmlsitemap))
+* Configure the Mollom module to prevent spam ([drupal.org/project/mollom](https://drupal.org/project/mollom))
+* Add social media tools ([drupal.org/project/sharethis](https://drupal.org/project/sharethis))
+* XML sitemap ([drupal.org/project/xmlsitemap](https://drupal.org/project/xmlsitemap))
 * Additional checklist ( [http://www.clickminded.com/seo-checklist/](http://www.clickminded.com/seo-checklist/) )
 * Onpage SEO best Practices
     * Page title tags &  header ( h1, h2 ….) are being used.
@@ -76,22 +76,22 @@ alone to convey information. Optional: Install the Page Style module.
 * There are many ways to make your content easier to understand. Write clearly,
 use clear fonts, and use headings and lists appropriately. Optional: Install the Text Size module.
 * Use ARIA landmark roles within your theme(s).
-([http://drupal.org/project/block_aria_landmark_roles](http://drupal.org/project/block_aria_landmark_roles))
+([https://drupal.org/project/block_aria_landmark_roles](https://drupal.org/project/block_aria_landmark_roles))
 * Ensure that JavaScript event handlers are device independent.
 * Optional: Generate an accessibility statement using Nomensa\'s
 <a href="http://www.accessibilitystatementgenerator.com" title="Nomensa\'s Accessibility Statement Generator">Accessibility Statement Generator</a>.
 
 ### Content Editing
 
-* Enable and configure an editor ([drupal.org/project/wysiwyg](http://drupal.org/project/wysiwyg) or [drupal.org/project/bueditor](drupal.org/project/bueditor))
+* Enable and configure an editor ([drupal.org/project/wysiwyg](https://drupal.org/project/wysiwyg) or [drupal.org/project/bueditor](drupal.org/project/bueditor))
 * Text formats are ordered and configured correctly (Configuration > Content authoring > Text formats)
-* Images can be embedded in the body text ([drupal.org/project/insert](http://drupal.org/project/insert) and [drupal.org/project/image_resize_filter](http://drupal.org/project/image_resize_filter))
+* Images can be embedded in the body text ([drupal.org/project/insert](https://drupal.org/project/insert) and [drupal.org/project/image_resize_filter](https://drupal.org/project/image_resize_filter))
 
 ### For the Administrator
 
-* Administration Views are in place ([drupal.org/project/admin_views](http://drupal.org/project/admin_views))
-* Views items can be re-ordered as necessary ([drupal.org/project/draggableviews](http://drupal.org/project/draggableviews))
-* Administrators have a menu that they can access ([drupal.org/project/admin_menu](http://drupal.org/project/admin_menu))
+* Administration Views are in place ([drupal.org/project/admin_views](https://drupal.org/project/admin_views))
+* Views items can be re-ordered as necessary ([drupal.org/project/draggableviews](https://drupal.org/project/draggableviews))
+* Administrators have a menu that they can access ([drupal.org/project/admin_menu](https://drupal.org/project/admin_menu))
 
 ### Emails
 
@@ -99,7 +99,7 @@ use clear fonts, and use headings and lists appropriately. Optional: Install the
 * Email notifications for registration have been tested (Configuration > People)
 
 ### User Accounts
-* Roles have been created and tested ([drupal.org/project/masquerade](http://drupal.org/project/masquerade))
+* Roles have been created and tested ([drupal.org/project/masquerade](https://drupal.org/project/masquerade))
 * Registration is limited if necessary (Configuration > People > Account Settings). The default value of Visitors can create accounts and no administrator approval is required is easily overlooked, and often undesired.
 * Anonymous users have permissions to access/search content (People > Permissions)
 
@@ -107,14 +107,14 @@ use clear fonts, and use headings and lists appropriately. Optional: Install the
 
 * Remove all test content from the site
 * No required fields are missing from legacy content
-* Image styles have been tested with different sizes ([drupal.org/project/imagecache_proportions](http://drupal.org/project/imagecache_proportions))
+* Image styles have been tested with different sizes ([drupal.org/project/imagecache_proportions](https://drupal.org/project/imagecache_proportions))
 
 ### Theming
-* Load images based on device size ([drupal.org/project/adaptive_image](http://drupal.org/project/adaptive_image) [drupal.org/project/resp_img](drupal.org/project/resp_img))
-* Check that the viewport meta tag is in place ([drupal.org/project/viewport](http://drupal.org/project/viewport) or [http://drupal.org/node/1888028](http://drupal.org/node/1888028))
+* Load images based on device size ([drupal.org/project/adaptive_image](https://drupal.org/project/adaptive_image) [drupal.org/project/resp_img](drupal.org/project/resp_img))
+* Check that the viewport meta tag is in place ([drupal.org/project/viewport](https://drupal.org/project/viewport) or [https://drupal.org/node/1888028](https://drupal.org/node/1888028))
 *  Make sure there’s a favicon (Appearance > Settings)
 * Use Sass with .scss syntax
-* Drupal 8 CSS guideline ([drupal.org/node/1887918](http://drupal.org/node/1887918))
+* Drupal 8 CSS guideline ([drupal.org/node/1887918](https://drupal.org/node/1887918))
 * Disable Sass debug and switch output style to compressed on production
 *  Validate code using linters and hinters (jslint, csslint, html validator)
 * Use normalize instead of reset ([necolas.github.io/normalize.css/](http://necolas.github.io/normalize.css/))
@@ -128,8 +128,8 @@ use clear fonts, and use headings and lists appropriately. Optional: Install the
 
 * Date formats are localized (Configuration > Regional and language > Date and time > Localize)
 * Email are translated (Configuration > People)
-* Transliteration of path aliases ([drupal.org/project/transliteration](http://drupal.org/project/transliteration))
-* Run translation updates ([drupal.org/project/l10n](http://drupal.org/project/l10n))
+* Transliteration of path aliases ([drupal.org/project/transliteration](https://drupal.org/project/transliteration))
+* Run translation updates ([drupal.org/project/l10n](https://drupal.org/project/l10n))
 
 ### Development & Pre-Launch
 
@@ -145,7 +145,7 @@ use clear fonts, and use headings and lists appropriately. Optional: Install the
 * Disable error logging  (Configuration > Development > Logging and errors). On a production site, it's best to suppress on-screen error reporting by choosing Write errors to the log.
 * Enable caching and aggregation (Configuration > Development > Performance). The best performance settings depends on your site. Also, don't change cache settings at the last moment without thoroughly testing your site's features. Ideally, I like to finalize the cache settings about 2/3 of the way through a project, so that the final stages of development and testing are performed with cache settings that will match production.
 * Install and configure Entity Cache module ( [https://drupal.org/project/entitycache](https://drupal.org/project/entitycache))
-* Do a security review [drupal.org/project/security_review](http://drupal.org/project/security_review)
+* Do a security review [drupal.org/project/security_review](https://drupal.org/project/security_review)
 * Prefer if dblog can be turned off completely and alternates such as syslog can be enabled. If not set database logging row limit (admin/settings/logging/dblog) I have found the default row limit of 1000 can  wrap quickly, leave you without vital debugging information when you need it most. The average row length is generally around 1kB, so even boosting this to 100,000 rows will still leave you with a manageable watchdog table.
 * Set a maintenance theme (settings.php). By default Drupal's Site off-line page uses the Minnelli theme. Switching this is a nice enhancement, in case you ever need to use the maintenance mode, or in the unfortunate event you experience unplanned downtime. In most cases your site's theme will work fine; just add $conf['maintenance_theme'] = 'mytheme'; to settings.php. You may also need to add a maintenance-page.tpl.php to your theme; if you're using Zen this is already done for you.
 * Confirm email settings
@@ -180,7 +180,7 @@ $ drush aa --html --bootstrap --detail --skip=insights > report.html
 
 ### Security
 
-* Install and configure HTML Purifier module ([drupal.org/project/htmlpurifier](http://drupal.org/project/htmlpurifier) - adds stronger protection against XSS vulnerabilities for text input formats. We recommend installing it and applying to all text input formats)
+* Install and configure HTML Purifier module ([drupal.org/project/htmlpurifier](https://drupal.org/project/htmlpurifier) - adds stronger protection against XSS vulnerabilities for text input formats. We recommend installing it and applying to all text input formats)
 * Execute Drupal Security scan @ [http://hackertarget.com/drupal-security-scan/](http://hackertarget.com/drupal-security-scan/) for the urls collected for performance testing
 
 ### Post-Launch
