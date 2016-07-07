@@ -17,6 +17,7 @@ gems:
 
 toc:
   - General
-  - Front-end
   - Back-end
+  - Front-end
+  - QA
   - Devops

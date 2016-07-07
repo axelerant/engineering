@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Quality Assurance
-permalink: /qa/
-weight: 7
-parent: General
-subnav:
-  - BDD with Behat
+title: BDD with Behat
+permalink: /qa/bdd-behat/
+weight: 8
+parent: QA
 ---
 
 ## BDD with Behat
