@@ -2,8 +2,8 @@
 layout: page
 title: Defining Contributions @ Axelerant
 permalink: /community/define-contribution
-weight: 9
-parent: Community
+weight: 13
+parent: General
 subnav:
   - What is an open source community contribution?
   - What is considered as 1 Community Contribution

@@ -2,8 +2,8 @@
 layout: page
 title: Community
 permalink: /community/
-weight: 8
-parent: Community
+weight: 12
+parent: General
 subnav:
   - Introduction
   - Background
