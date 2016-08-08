@@ -6,6 +6,11 @@ weight: 14
 parent: General
 subnav:
   - Introduction
+  - General
+  - Backend
+  - Front-end
+  - QA
+  - Devops
 ---
 
 ## Introduction
@@ -15,3 +20,15 @@ This document links to various resources useful for day to day development and l
 ## General
 
 - [FreeCodeCamp](https://www.freecodecamp.com/)
+
+## Backend
+
+### Drupal
+
+### PHP
+
+## Front-end
+
+## QA
+
+## Devops
