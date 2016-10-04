@@ -39,7 +39,7 @@ While each contribution is valuable, we all know how each one has a varied inves
 * Presentation at a Camp or a Conference with community significance.
 * Any significant contribution to an Open Source project besides Drupal.
 * Blogs with thought leadership content.
-  * Blog should be ready to publish (_approved by Nathan for publish_) or be published within the quarter. 
+  * Blog should be ready to publish (_approved by Nathan for publishing_) or be published within the quarter. 
   * _Definition: At its core, **thought leadership** is a type of **content** marketing where you tap into the talent, experience and passion inside your business, or from your community, to answer the biggest questions on the minds of your target audience on a particular topic._
   * Get the content approved by the content marketing team before you start working on it.
 * Executing a public training.
