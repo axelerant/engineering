@@ -19,12 +19,13 @@ An open source community contribution is defined as any piece of documentation (
 
 While we understand the above is an open source contribution **Axelerant’s intent is to encourage more meaningful contributions for the community & for the organisation.**
 
+* Additional contributions over your set KPI number will always be a bonus when applying for event sponsorships, salary corrections, etc.
+* Above mentioned contributions are valid for all open source projects. Contributions to multiple open source projects can have brownie points.
+
 ## Important Notes before you continue reading:
 
 * If you have doubts when contributing, please check with #community.
 * If there are kinds of contributions that aren’t listed here, please raise in #community
-* Additional contributions over your set KPI number will always be a bonus when applying for event sponsorships, salary corrections, etc.
-* Above mentioned contributions are valid for all open source projects. Contributions to multiple open source projects can have brownie points
 * Any offline activities need to be documented and made available publicly in a presentable format for the community.
 
 ## What is considered as 1 Community Contribution
