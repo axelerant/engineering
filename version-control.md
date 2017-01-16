@@ -25,6 +25,6 @@ subnav:
 
 ## Branch Naming
 
-* No hard-and-fast rules here, but ideally your branches are named after Curamine tickets, with the understanding that sometimes you need to submit
-code that doesn't relate to an existing Curamine ticket.
+* No hard-and-fast rules here, but ideally your branches are named after Jira tickets, with the understanding that sometimes you need to submit
+code that doesn't relate to an existing Jira ticket.
 * If you forget and don't name your branch after a ticket, just be sure to reference the ticket in the commit or pull request message.
